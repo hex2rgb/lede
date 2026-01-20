@@ -42,7 +42,7 @@ Rebuild:
 cd lede
 git pull
 ./scripts/feeds update -a && ./scripts/feeds install -a
-make defconfig
+make oldconfig
 make -j8 download
 make -j$(($(nproc) + 1)) V=s
 ```
