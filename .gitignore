@@ -31,3 +31,4 @@ git-src
 .ccache
 .vscode*
 *.log
+.idea
